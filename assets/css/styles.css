@@ -1,0 +1,18 @@
+@media (max-width: 576px) {
+  #home-main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom padding {
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-padding {
+    padding: 20px!important;
+  }
+}
+
