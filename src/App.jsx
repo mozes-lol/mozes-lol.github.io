@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import React from 'react';
 import MyEducation from './components/MyEducation.jsx';
 
 
