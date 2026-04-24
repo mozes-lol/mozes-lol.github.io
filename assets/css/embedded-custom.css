@@ -1,0 +1,102 @@
+body.site-body {
+  --bs-body-bg: #303030;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  position: static;
+  transform: translateX(0px) translateY(0px);
+  min-width: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  max-width: 670px;
+}
+
+.biz-font {
+  font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.page-title {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  font-family: 'BIZ UDGothic', sans-serif;
+  color: rgb(180, 180, 180);
+}
+
+.text-white-custom {
+  color: rgb(255, 255, 255);
+}
+
+.text-accent {
+  color: rgb(255, 123, 27);
+}
+
+.text-muted-custom {
+  color: rgb(180, 180, 180);
+}
+
+.hero-subtitle {
+  color: rgb(180, 180, 180);
+  margin-bottom: 40px;
+  font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.intro-copy {
+  font-size: 17px;
+  margin-top: 0;
+  min-width: 0px;
+  margin-bottom: 40px;
+  font-family: 'BIZ UDGothic', sans-serif;
+  filter: blur(0px);
+}
+
+.section-block {
+  font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.projects-section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 17px;
+  margin-top: 0;
+  min-width: 0px;
+  margin-bottom: 25px;
+  font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.item-row {
+  margin-bottom: 16px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.project-name {
+  margin-bottom: 0px;
+}
+
+.external-link {
+  color: rgb(255, 123, 27);
+}
+
+.link-icon {
+  margin-left: 9px;
+}
+
+.project-description {
+  margin-bottom: 0px;
+  color: #303030;
+}
+
+.icon-col {
+  text-align: left;
+  padding-right: 44px;
+}
+
+.icon-col img {
+  margin-right: 20px;
+}
