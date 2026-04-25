@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/embedded-custom.css">
 </head>
-<body class="site-body">
+<body id="vanta-container" class="site-body">
     <div class="row">
         <div class="col-sm-9">
             <h1 class="page-title"><span class="text-white-custom">Hi! My Name is </span><strong><span class="text-accent">John Mark Garcia</span></strong><span class="text-white-custom">.</span></h1>
@@ -88,6 +88,26 @@
         </div>
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+        VANTA.BIRDS({
+            el: "#vanta-container",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundColor: 0x111111,
+            color1: 0xff0000,
+            color2: 0x00ff00,
+            birdSize: 1.50,
+            wingSpan: 20.00,
+            speedLimit: 5.00
+        })
+    </script>
 </body>
 
 </html>
