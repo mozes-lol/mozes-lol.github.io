@@ -1,7 +1,7 @@
 .site-body {
   --bs-body-bg: #30303000;
-  margin-top: 64px;
-  margin-bottom: 64px;
+  padding-top: 64px;
+  padding-bottom: 64px;
   position: static;
   transform: translateX(0px) translateY(0px);
   min-width: 0px;
